@@ -1,0 +1,167 @@
+body {
+    background-color:  #58595B;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+}
+
+#main-header {
+	background-color: #58595B;
+    height: 150px;
+}
+
+#name {
+    font-size: 2.75em;
+    color: #D9C2B2;
+    display: inline-block;
+    text-align: left; 
+    padding-top: 30px;
+}
+
+#nav-links {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+	list-style-type: none;
+	width: 100%;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;    
+}
+
+#nav-links li {
+	float: left;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li:first-child::before {
+	content: "";
+}
+
+#nav-links li a {
+	color: #fff;
+    font-size: 0.8em;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-links li a:hover {
+	text-decoration: overline;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.75em;
+}
+
+p {
+    margin: auto;
+}
+
+#nav-second h2{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+#nav-second {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.75em;
+    color: #58595B;
+    width: 99.25%;
+    display: inline-block;
+    text-align: center;
+    background-color: #D9C2B2;
+}
+
+#profile h3 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+#profile {
+    background-color: white;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.15em;
+    display: inline-block;
+    text-align: center;
+    width: 99.25%;
+    color: #58595B; 
+}
+
+#education ul li {
+    list-style-type: none;
+}
+
+#education li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+#expertise ul li {
+    list-style-type: square;
+    margin-left: -19px;
+}
+    
+#sidebar {	
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.45em;
+    color: #58595B;
+    background-color: #D9C2B2;
+	float: left;
+	width: 20%;
+	height: 830px;
+    padding: 10px;
+}   
+
+#experience ul li {
+    list-style-type: square;
+}
+
+#experience li {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main-content {
+	float: left;
+	width: 75%;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.45em;
+    color: #58595B;
+	background-color: lightgray;
+	height: 830px;
+    padding: 10px;
+}

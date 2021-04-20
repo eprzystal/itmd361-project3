@@ -1,0 +1,185 @@
+body {
+    background-color:  #58595B;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+    }
+
+#main-header {
+	background-color: #58595B;
+    height: 150px;
+}
+
+#name {
+    font-size: 2.75em;
+    color: #D9C2B2;
+    display: inline-block;
+    text-align: left; 
+    padding-top: 30px;
+}
+
+#nav-links {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+	list-style-type: none;
+	width: 100%;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;    
+}
+
+#header-info {
+	position: absolute;
+}
+
+#nav-links li {
+	float: left;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li:first-child::before {
+	content: "";
+}
+
+#nav-links li a {
+	color: #fff;
+    font-size: 0.8em;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-links li a:hover {
+	text-decoration: overline;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-links li a:hover {
+	text-decoration: underline;
+}
+
+#nav-second {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.55em;
+    color: #58595B;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+    
+img {  
+    max-width: 980px;  
+    height: auto;  
+    position: relative;
+    margin: -10px;
+} 
+
+h2  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75em;
+    display: inline-block;
+    text-align: center;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -10px;
+    width: 98%;
+    margin-left: -10px;
+  }
+
+h4 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;    
+    text-align: left;
+    color: #58595B;
+    margin: 0 auto;
+}
+
+p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 1em;  
+    padding: 10px;
+}
+
+#ws_images #ws_bullets{
+    color: #58595B;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#nav-forth {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.75em;
+    color: #58595B;
+}
+    
+#aside {
+	margin: 0 auto;
+    position: relative;
+}
+   
+#left-sidebar {	
+    background-color: #fff;
+	float: left;
+	width: 49%;
+	height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: -10px;
+    margin-top: -40px;
+}
+    
+#left-sidebar li {
+    font-size: .75em;
+    text-align: left;
+    color: #58595B;
+    list-style-type: square;
+}
+
+#right-sidebar {	
+    background-color: lightgray;
+	float: right;
+	width: 48.7%;
+	height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-right: -10px;
+    margin-top: -40px;
+}
+    
+#right-sidebar li {
+    font-size: .75em;
+    text-align: left;
+    color: #58595B;
+    list-style-type: square;
+}

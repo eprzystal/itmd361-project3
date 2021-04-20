@@ -1,0 +1,176 @@
+
+body {
+    background-color:  #58595B;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+    }
+
+#main-header {
+	background-color: #58595B;
+    height: 150px;
+}
+
+#name {
+    font-size: 2.75em;
+    color: #D9C2B2;
+    display: inline-block;
+    text-align: left; 
+    padding-top: 30px;
+}
+
+#nav-links {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+	list-style-type: none;
+	width: 100%;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;    
+}
+
+#nav-links li {
+	float: left;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li:first-child::before {
+	content: "";
+}
+
+#nav-links li a {
+	color: #fff;
+    font-size: 0.8em;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#nav-links li a:hover {
+	text-decoration: overline;
+}
+
+#nav-links li::before {
+	content: "::";
+	color: #fff;
+}
+
+#nav-links li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+h2  {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.2em;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -10px;
+    width: 98%;
+    margin-left: -10px;
+  }
+  
+p {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #58595B;
+    text-decoration: none;
+    background-color: #D9C2B2;
+    padding: 20px;
+    margin-top: -70px;
+    width: 98%;
+    margin-left: -10px;
+}
+
+#nav-second {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    }
+    
+#graphic-content img {
+    border: 1px solid lightgray;
+}
+    
+.graphic {
+    background-color: #D9C2B2;
+    width: 960px;
+}
+
+#nav-third {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.environmental {
+    background-color: #D9C2B2;
+    position: relative;
+    width: 960px;
+}
+
+#nav-forth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+    
+.structural {
+    background-color: #D9C2B2;
+    position: relative;
+    width: 960px;
+}
+
+#nav-fifth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    }
+    
+.art-direction {
+    background-color: #D9C2B2;
+    position: relative;    
+    width: 960px;
+}
+
+#nav-sixth {
+    font-family: brandon-grotesque, sans-serif;
+    color: #58595B;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    }
+    
+.interior-design {
+    background-color: #D9C2B2;
+    position: relative;
+    width: 960px;
+}
+
